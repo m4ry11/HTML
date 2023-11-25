@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <title>Línea de Tiempo de Lenguajes de Programación</title>
+
+    <style> 
+      .timeline{
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .event{
+        position: relative;
+        padding: 10px 40px;
+        width: 50%;
+        margin: 10px auto;
+        background-color: rgb(173, 173, 173);
+      }
+    
+      .event::after{
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid #ff0000;
+        border-radius: 50%;
+        top: 50%;
+        left: -15px;
+        transform: translateY(-50%);
+      }
+    
+      .event .date{
+        position: absolute;
+        top: 50%;
+        right: -120px;
+        transform: translateY(-50%);
+      }
+
+      .event .date {
+        border: solid #ff0000;
+        padding: 7px;
+        right: -100px;
+        color:black;
+      }
+
+      .event .date::after{
+        content: '';
+        position: absolute;
+        width: 45px;
+        border: 2px solid #ff0000;
+        top: 50%;
+        left: -51px;
+        transform: translateY(-50%);
+      }
+
+     </style> 
+  </head>
+  <body>
+    <h1 style="text-align: center; color: rgb(0, 0, 0);">Línea de Tiempo de Lenguajes de Programación</h1>  
+    <div style='color:white';></div>
+    <div class="timeline">
+    <div class="event"> <div class="date">1942</div> <h3>Lenguaje Máquina</h3>
+    <p>Lenguaje de programación de bajo nivel específico de una arquitectura de computadora.</p>
+    <p>Creado por Ada Lovelace</p> </div> 
+    <div class="event"> <div class="date">1950</div><h3>Lenguaje Ensamblador</h3>
+    <p>Lenguaje de programación de bajo nivel que utiliza mnemónicos para representar instrucciones de máquina.</p>
+    <p>Creado por Mauricio V. Wilkes</p></div>
+    <div class="event"> <div class="date">1957</div> <h3>FORTRAN</h3>
+    <p>Lenguaje de programación de alto nivel utilizado para cálculos numéricos y científicos.</p>
+    <p>Creado por John Backus de IBM</p></div>
+    <div class="event"> <div class="date">1959</div> <h3>RPG</h3>
+    <p>Lenguaje de programación de alto nivel utilizado principalmente en el desarrollo de sistemas de información y aplicaciones empresariales.</p>
+    <p>Creado por IBM</p></div>
+    <div class="event"> <div class="date">1960</div> <h3>COBOL</h3>
+    <p>Lenguaje de programación de alto nivel orientado a aplicaciones comerciales y empresariales.</p>
+    <p>Creado por el Comité CODASYL</p></div>
+    <div class="event"> <div class="date">1964</div> <h3>BASIC</h3>
+    <p>Lenguaje de programación de alto nivel diseñado para principiantes.</p>
+    <p>Creado por Thomas Kurtz y John Kemeny </p></div>
+    <div class="event"> <div class="date">1969</div> <h3>Pascal</h3>
+    <p>Lenguaje de programación de alto nivel utilizado en entornos académicos y educativos.</p>
+    <p>Creado por Niklaus Wirth</p></div>
+    <div class="event"> <div class="date">1972</div> <h3>C</h3>
+    <p>Lenguaje de programación de alto nivel utilizado ampliamente en el desarrollo de software.</p>
+    <p>Creado por Dennis Ritchie</p></div>
+    <div class="event"> <div class="date">1978</div> <h3>dBase</h3>
+    <p>Lenguaje de programación de cuarta generación y sistema de gestión de bases de datos utilizado ampliamente en los años 80 y 90.</p>
+    <p>Creado por Wayne Ratliff</p></div>
+    <div class="event"> <div class="date">1980</div> <h3>Foxpro</h3>
+    <p>Lenguaje de programación de cuarta generación utilizado para el desarrollo de aplicaciones de bases de datos.</p>
+    <p>Creado por Fox Software</p></div>
+    <div class="event"> <div class="date">1985</div> <h3>Clipper</h3>
+    <p>Lenguaje de programación de cuarta generación utilizado para el desarrollo de aplicaciones de bases de datos y gestión empresarial.</p>
+    <P>Creado por Nantucket Corporation</P></div></div>
+  </body>
+</html>
